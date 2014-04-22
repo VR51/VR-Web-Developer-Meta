@@ -76,7 +76,7 @@ Author URI: http://vizred.com/
     if (is_admin()) {
 	function vr51_hide_meta_plugin() {
 	  global $wp_list_table;
-	  $hidearr = array('VR-Web-Developer-Meta/index.php');
+	  $hidearr = array(plugin_basename(__FILE__));
 	  $myplugins = $wp_list_table->items;
 	  foreach ($myplugins as $key => $val) {
 	    if (in_array($key,$hidearr)) {
