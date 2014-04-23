@@ -3,7 +3,7 @@ Contributors: leehodson
 Tags: developer meta,hide plugin
 Requires at least: 3.3
 Tested up to: 3.9
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,11 +26,16 @@ Adds web developer details to WordPress frontend page source code. Adds web deve
 * Edit the plugin's index.php file
 * Update the configs between START CONFIGURATIONS 1 and END CONFIGURATIONS 1
 * Update the configs between START CONFIGURATIONS 2 and END CONFIGURATIONS 2
+* Update the configs between START CONFIGURATIONS 2 and END CONFIGURATIONS 3
 * Now activate the plugin.
 * The plugin will no longer display in the list of installed plugins
 * The plugin will add your details to the site's source code and below the site's footer.
 
 == Changelog ==
+
+= 1.0.1 =
+
+* Feature: Made footer signature display an optional feature
 
 = 1.0.0 =
 
